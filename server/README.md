@@ -1,9 +1,10 @@
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
-
-* [Node.js](https://nodejs.org)
+* [Python](https://www.python.org/)
+* [PIP](https://pypi.org/project/pip/)
 
 ### Installation
 
@@ -11,13 +12,7 @@
    ```sh
    git clone https://github.com/bennaaym/handwritten-digit-classifier-full-stack.git
    ```
-2. Install NPM packages 
+2. Install python packages  (server directory)
    ```sh
-   npm install
-   ```
-   
-3. create a `.env.local` file  and past the line below
-   ```sh
-   REACT_APP_API=http://127.0.0.1:5000/api/input
-   
+   pip install -r requirements.txt
    ```

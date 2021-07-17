@@ -1,8 +1,6 @@
 import numpy as np
 import base64
 import cv2
-import tensorflow as tf
-from tensorflow.keras.models import load_model
 from tensorflow.keras.models import model_from_json
 
 

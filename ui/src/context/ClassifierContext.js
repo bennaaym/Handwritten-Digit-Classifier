@@ -7,7 +7,7 @@ export const ClassifierContext = createContext();
 const ClassifierContextProvider = ({children}) => {
 
 
-    const API = 'http://127.0.0.1:5000/api/input'
+    const ENDPOINT = process.env.REACT_APP_API;
 
     const [data,setData] = useState({
         imgB64Encode:null,
@@ -19,7 +19,7 @@ const ClassifierContextProvider = ({children}) => {
     const accuracy = useRef(0);
 
     useEffect(() => {
-       axios.post(API,{"input": JSON.stringify(data)})
+       axios.post(ENDPOINT,{"input": JSON.stringify(data)})
        .then((res)=>{
            const data = res.data
            let  pred = data['predictions']
@@ -41,7 +41,7 @@ const ClassifierContextProvider = ({children}) => {
        .catch(e =>{
            console.log(e)
        })
-    }, [data])
+    }, [data,ENDPOINT])
 
 
     return (
