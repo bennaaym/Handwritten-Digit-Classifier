@@ -88,5 +88,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/bennaaym/handwritten-digit-classifier-full-stack/blob/main/LICENSE
 [product-screenshot]: https://i.ibb.co/8NFS6Yt/screely-1626521338350.png
